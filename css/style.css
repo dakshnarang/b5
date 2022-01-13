@@ -4,6 +4,7 @@ body {
 
 .navbar-toggler span {
     color: #fff !important;
+    font-family:monospace;
 }
 
 .navbar-toggler {
@@ -86,7 +87,10 @@ nav {
     font-weight: 700;
     color: #D92A3B;
 }
+.mainc{
+    color: #D92A3B;
 
+}
 .hero .container .row .col h3 {
     font-weight: 500;
     padding-bottom: 8px;
@@ -135,5 +139,10 @@ nav {
 
 i {
     margin: 0 10px;
-    color: #222222 !important;
+    color: #222222;
+}
+.card .ico {
+    margin: 10px 10px;
+    font-size: 3rem;
+    color: #CD2435;
 }
