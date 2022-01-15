@@ -1,0 +1,181 @@
+body {
+    background-color: #F8F9FA !important;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar-toggler span {
+    color: #fff !important;
+    font-family:monospace;
+}
+
+.navbar-toggler {
+    color: transparent !important;
+    transition: 4s !important;
+}
+
+.head nav .navbar-brand {
+    color: #D92A3B !important;
+    font-weight: 600;
+}
+
+.head {
+    height: 100vh;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+nav {
+    box-shadow: 0 0 4.5px #303030;
+}
+
+ul {
+    width: 12% !important;
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    right: 100px;
+    border: 1px solid #909090;
+    top: 65px;
+}
+
+.navbar-brand {
+    font-weight: 700 !important;
+}
+
+ul li a {
+    transition: .2s !important;
+}
+
+ul li a:hover {
+    color: #CD2435 !important;
+    /* transform: rotate(2deg); */
+    transform: scale(1.1);
+}
+
+.a {
+    color: #303030 !important;
+}
+
+ul li {
+    position: relative;
+    left: 22px;
+    margin: -3px;
+}
+
+nav {
+    padding: 150px;
+}
+
+.hero img {
+    border-radius: 100%;
+    position: relative;
+    bottom: 50px;
+    margin-left: 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 144px 0 !important;
+}
+
+.hero .container .row .col h5 {
+    font-weight: 300;
+}
+
+.hero .container .row .col h1 {
+    font-weight: 700;
+    color: #D92A3B;
+}
+.mainc{
+    color: #E25866;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: .2s ease;
+}
+.mainc:hover{
+    color: #CD2435;
+
+}
+.hero .container .row .col h3 {
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.hero .container .row .col p {
+    font-weight: 500;
+    color: #707070;
+    font-size: 14.5px;
+}
+
+.btn {
+    background-color: #D92A3B;
+    color: #f4f4f4;
+    padding: 5px 21px;
+}
+
+.btn:hover {
+    background-color: #CD2435;
+    color: #f8f8f8;
+}
+
+.about .container h4 {
+    padding-bottom: 10px;
+}
+
+.about .container .li h6 {
+    font-weight: 200;
+}
+
+.d-flex .li {
+    margin: 0 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h {
+    font-weight: 600;
+}
+
+i {
+    margin: 0 10px;
+    color: #222222;
+}
+.card .ico {
+    margin: 10px 10px;
+    font-size: 3rem;
+    color: #CD2435;
+}
+
+
+.works .card-body{
+    margin-left: -15px;
+    font-size: 27px;
+    line-height: 1;
+}
+.works .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.works .card{
+    margin: 12px 30px ;
+    padding: 10px;
+    transition: .4s ease;
+    cursor: pointer;
+
+}
+.works .card:hover{
+    transform: translateY(-20px);
+}
