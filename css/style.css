@@ -1,6 +1,9 @@
 body {
     background-color: #F8F9FA !important;
 }
+a{
+    text-decoration: none;
+}
 
 .navbar-toggler span {
     color: #fff !important;
@@ -88,7 +91,15 @@ nav {
     color: #D92A3B;
 }
 .mainc{
-    color: #D92A3B;
+    color: #E25866;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: .2s ease;
+}
+.mainc:hover{
+    color: #CD2435;
 
 }
 .hero .container .row .col h3 {
@@ -145,4 +156,26 @@ i {
     margin: 10px 10px;
     font-size: 3rem;
     color: #CD2435;
+}
+
+
+.works .card-body{
+    margin-left: -15px;
+    font-size: 30px;
+    line-height: 1;
+}
+.works .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.works .card{
+    margin: 12px 30px ;
+    padding: 10px;
+    transition: .4s ease;
+    cursor: pointer;
+
+}
+.works .card:hover{
+    transform: translateY(-20px);
 }
