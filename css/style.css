@@ -207,3 +207,38 @@ i {
 background-color: #fff;
 color: #cd2435;
 }
+
+.testionials .mini-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.testionials .test-card{
+  background-color: #fff;
+  padding: 20px 45px;
+  width: 60%;
+}
+.testionials .test-card .row{
+  position: relative;
+  margin-bottom: 10px;
+}
+.testionials .test-card .row .name{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+.testionials .test-card .row .name h6{
+  font-weight: 400;
+}
+.testionials .test-card .row .avatar{
+  border-radius: 100px;
+  width: 100px;
+}
+.testionials .rating i{
+  color: #cd2435;
+  margin: 5px;
+  font-size: 20px;
+}
