@@ -314,3 +314,28 @@ textarea {
   border-radius: 6px;
   margin-top: -10px;
 }
+
+
+
+.footer{
+  color: #707070;
+  
+}
+.footer hr{
+  width: 96%;
+  color: #909090;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2%;
+  height: 2px;
+}
+.footer p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
