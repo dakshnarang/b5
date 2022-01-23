@@ -1,10 +1,30 @@
+.row {
+  display: flex !important;
+}
 body {
   background-color: #f8f9fa !important;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
 }
-
+.f-c {
+  display: block;
+  /* width: 100%; */
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 .navbar-toggler span {
   color: #fff !important;
   font-family: monospace;
@@ -183,62 +203,114 @@ i {
   color: #f4f4f4;
   height: 33vh;
 }
-.hireme h6{
-    font-weight: 100;
-    font-size: 21.3px;
+.hireme h6 {
+  font-weight: 100;
+  font-size: 21.3px;
 }
-.hireme h1{
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.hireme .hire-btn{
-    color: #f8f8f8;
-    border: 1.5px solid #f8f8f8;
-    padding:6px 12px;
-    border-radius: 4px;
-    font-size: 24px;
-    font-weight: 400;
-    cursor: pointer;
-    transition: .4s;
-    background-color: transparent;
-}
-.hireme .hire-btn:hover{
-background-color: #fff;
-color: #cd2435;
+.hireme h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-.testionials .mini-cont{
+.hireme .hire-btn {
+  color: #f8f8f8;
+  border: 1.5px solid #f8f8f8;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: transparent;
+}
+.hireme .hire-btn:hover {
+  background-color: #fff;
+  color: #cd2435;
+}
+
+.testimonials .mini-cont {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-
-.testionials .test-card{
+.testimonials .test-card {
   background-color: #fff;
   padding: 20px 45px;
   width: 60%;
 }
-.testionials .test-card .row{
+.testimonials .test-card .row {
   position: relative;
   margin-bottom: 10px;
 }
-.testionials .test-card .row .name{
+.testimonials .test-card .row .name {
   position: absolute;
   left: 100px;
   top: 10px;
 }
-.testionials .test-card .row .name h6{
+.testimonials .test-card .row .name h6 {
   font-weight: 400;
 }
-.testionials .test-card .row .avatar{
+.testimonials .test-card .row .avatar {
   border-radius: 100px;
   width: 100px;
 }
-.testionials .rating i{
+.testimonials .rating i {
   color: #cd2435;
   margin: 5px;
   font-size: 20px;
+}
+
+
+.contact{
+  height: 75vh;
+  overflow: hidden;
+}
+.contact .container .row .details .d-icon i {
+  color: #cd2435;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+.contact .container .row .details .d-text h4 {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 0;
+}
+.contact .container .row .details .d-text h6 {
+  font-weight: 400;
+  padding-left: 3.5px;
+  color: #304030;
+}
+.contact .container .row .details .d-col {
+  margin: 10px 0;
+}
+
+.contact .container .row .details .d-col-top {
+  margin-top: 30px;
+}
+.contact .container form .row input {
+  width: 25%;
+  border-radius: 6px;
+  margin: 0 10px;
+}
+.contact .container form .row {
+  margin: 30px 0;
+}
+.contact .container form input,
+textarea {
+  margin: 30px 10px;
+  width: 51.5%;
+}
+.contact .container form {
+  right: -500px;
+  position: relative;
+  top: -250px;
+}
+.contact .container form a {
+  margin: 0 10px;
+  padding: 6px 25px;
+  border-radius: 6px;
+  margin-top: -10px;
 }
